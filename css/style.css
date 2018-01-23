@@ -57,17 +57,31 @@ p {
   font-size: inherit;
 }
 
-#jsbutton {
+h1 {
+  color: red;
+  font-family: sans-serif;
+}
+
+h5 {
+  color: black;
+  font-weight: bold;
+}
+
+.parallax-container {
+  max-height: 800px;
+}
+
+#missiles {
   display: flex;
+  flex-flow: column;
   justify-content: center;
+}
+
+button {
   margin-top: 2rem;
 }
 
-h1 {
-  /* border-style: solid;
-  border-width: thin; */
-}
-
-.nav-wrapper-container {
-  text-align: center;
+.nerf {
+  display: flex;
+  justify-content: center;
 }
