@@ -63,6 +63,11 @@ p {
   margin-top: 2rem;
 }
 
-/* h1 {
-  font-family: "DeValencia";
-} */
+h1 {
+  /* border-style: solid;
+  border-width: thin; */
+}
+
+.nav-wrapper-container {
+  text-align: center;
+}
